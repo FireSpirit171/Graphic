@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>620</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: #e5f1f7;
+</string>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>260</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string>Построить!</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>257</y>
+      <width>491</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Введите функцию...</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addButton">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>220</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>310</y>
+      <width>491</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>370</y>
+      <width>491</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3"/>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;</string>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+    <property name="duplicatesEnabled">
+     <bool>false</bool>
+    </property>
+    <item>
+     <property name="text">
+      <string>Подсказка</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&quot;+&quot; - сложение</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&quot;-&quot; - вычитание</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&quot;*&quot; - умножение</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>&quot;/&quot; - деление</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ln  - натуральный логарифм</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sin - синус</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cos - косинус</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tg - тангенс</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ctg - котангенс</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sqrt - квадратный корень</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>abs - модуль</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>arcsin - арксинус</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>arccos - арккосинус</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>arctg - арктангенс</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>arcctg - арккотангенс</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>-20</y>
+      <width>201</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Content/icon_3.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>0</y>
+      <width>481</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Content/Ryan_Gosling_2.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="changeColorButton">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>430</y>
+      <width>111</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white;</string>
+    </property>
+    <property name="text">
+     <string>Изменить цвет</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
